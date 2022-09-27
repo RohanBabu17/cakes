@@ -1,0 +1,31 @@
+<nav>
+    <h3  routerLink="">Cake</h3>
+    <ul>
+      
+      <li *ngIf="!loggedin()">
+        <h5><a routerLink="">Home</a></h5>
+      </li>
+      
+      <li *ngIf="!loggedin()">
+        <h5><a routerLink="/user">Login</a></h5>
+      </li>
+      <li *ngIf="!loggedin()">
+        <h5><a routerLink="/user">Register</a></h5>
+      </li>
+      <div *ngIf="loggedin()" class="dropdown" dropdown>
+        <a href="#" class="dropdown-toggle " dropdownToggle (click)="false">Welcome &nbsp;{{loggedinuser}}</a>
+        <div class="dropdown-menu" *dropdownMenu>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-tachometer-alt"></i>&nbsp;View Dashboard</a>
+          <a href="#" class="dropdown-item">
+            <i class="far fa-user-circle"></i>&nbsp;My Profile</a>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-key"></i>&nbsp;Change Password</a>
+          <a (click)="onlogout()" class="drop-down-item">
+            <i class="fas fa-sign-out-alt"></i>&nbsp;Logout</a>
+
+        </div> 
+
+      </div>
+    </ul>
+  </nav>

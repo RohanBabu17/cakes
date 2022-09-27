@@ -1,0 +1,48 @@
+.view1{
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+.dash{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: oblique;
+    margin-top: 60px;
+}
+.dash1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-style: oblique;
+    padding-top: 30px;
+    margin-left: 35%;
+}
+.dash2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: oblique;
+    padding-top: 30px;
+    margin-left: 35%;   
+}
+.dash3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: oblique;
+    /* padding-top: 10px; */
+    margin-left: 35%; 
+    cursor: pointer;  
+}
+
+.dash4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: oblique;
+    padding-top: 70px;  
+}
+.dash4 h4{
+    font-size: x-large
+}

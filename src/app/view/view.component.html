@@ -1,0 +1,72 @@
+<div class="container">
+    <form>
+        <div class=" view1 ">
+            <div class="col-md-4" *ngFor="let item of data">
+                <img src="{{item.img}}" class="card-img-top img" alt="no image">
+            </div>
+            <div id="data" class=" col-md-8 container txt " *ngFor="let item of data">
+                <div class="name">
+                    <label> {{item.name}}</label><br>
+                </div>
+                <div class="pc">
+                    <label> Product Code:&nbsp; &nbsp; Moss </label>
+                </div>
+                <div>
+                    <label> Availability :&nbsp; &nbsp; In Stock </label>
+                </div>
+                <div class="price">
+                    <label>Rs: {{item.Rs}}</label><br>
+                </div>
+                <div>
+                    <label>Available Option : </label> &nbsp; &nbsp;
+                    <input type="radio" value="day">Day Time
+                    <input type="radio" value="night">Mid Night
+                </div>
+                <div>
+                    <label>Cake Type : </label>&nbsp; &nbsp;
+                    <input type="radio" value="day">Egg
+                    <input type="radio" value="night">Eggless
+                </div>
+                <div>
+                    <label>Order Quantity:</label>&nbsp; &nbsp;
+                    <select class="txt2">
+                        <option>Select Quantity</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Delivery Date :</label>&nbsp; &nbsp;
+                    <input type="text" class="txt1" >
+                </div>
+                <div>
+                    <label>Delivery Time:</label>&nbsp; &nbsp;
+                    <select class="txt2"> 
+                        <option>Select Delivery Time</option>
+                        <option>6:30 AM to 9:00 AM </option>
+                        <option>9:00 AM to 12:00 PM </option>
+                        <option>12:00 PM to 3:00 PM </option>
+                        <option>3:00 PM to 6:00 PM </option>
+                        <option>6:00 PM to 9:00 PM </option>
+                    </select>
+                </div>
+                <div>
+                    <label>Message Box : </label>&nbsp; &nbsp;
+                    <textarea class="txtarea txt1" rows="6"></textarea>
+                </div>
+                <div >
+                    <button (click)="check(item.id)" class="btn btn-primary">ADD TO CART</button>
+                </div>
+                
+                <!-- <div class="btn">
+                    <button routerLink="" class="btn btn-primary">Close</button>
+                </div> -->
+            </div>
+        </div>
+        
+    </form>
+</div>

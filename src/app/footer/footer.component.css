@@ -1,0 +1,70 @@
+.grid-fluid {
+    display:inline-block;
+    background-color: #09203f;
+    width: 100%;
+    margin-top: 1opx;
+    cursor: pointer;
+    
+}
+.footer-block-heading{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    margin-left: 60px;
+    padding-top: 10px;
+    font-size: x-large;
+}
+.txt{
+    font-size: medium;
+    padding-top: 10px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    margin-left: 60px;
+    
+}
+.txt a{
+    color: aliceblue;
+}
+li{
+    padding: 4px 0;
+    padding-top: 4px;
+    padding-right: 0px;
+    padding-bottom: 4px;
+    
+}
+.contact{
+    display: table-cell;
+}
+
+.phone img{
+    width: 40px;
+    height: 40px;
+    margin-top: 13px;
+    
+}
+
+.phone-tag p{
+    font-size: medium;
+    padding-top: 25px;
+    padding: 10px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    padding-left: 30px;
+    
+}
+
+.email img{
+    width: 35px;
+    height: 40px;
+    margin-top: 80px;  
+}
+.email-tag p{
+    font-size: medium;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    margin-top: 80px;
+    /* text-align: left; */
+}

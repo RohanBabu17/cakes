@@ -1,0 +1,97 @@
+nav{
+    background-color: #09203f;
+    padding-bottom: 10px;
+    border:oldlace ;
+    /* overflow: hidden; */
+    top: 0;
+}
+nav ul{
+    float: right;
+    list-style-type: none ;
+    padding-right: 10%;
+    
+
+}
+li{
+    display: inline-block;
+    padding-top: 20px;
+       
+    
+}
+li a{
+    /* color:rgb(253, 250, 250); */
+    text-decoration: none;
+    cursor: pointer;
+    font-size: x-large;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.cart{
+    color:rgb(253, 250, 250);
+    padding-left: 30px;
+}
+
+
+ nav h3 {
+    
+    color:rgb(230, 227, 227);
+    display: inline-block;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: xx-large;
+
+}
+
+nav h5{
+    color:rgb(236, 231, 231);
+    display: inline-block;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size:x-large;
+    padding-bottom: 50px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    
+
+}
+.dropdown{
+    margin-top: 25px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: rgb(13, 13, 14);
+
+}
+.dropdown-menu{
+    background-color: #09203f;
+}
+
+.dropdown-toggle{
+    color:rgb(230, 227, 227);
+    text-decoration: none;
+
+}
+.dropdown-item{
+    color:rgb(230, 227, 227);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: x-large;
+    display: list-item;
+    text-decoration: none;
+
+
+}
+.drop-down-item{
+    color:rgb(230, 227, 227);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: x-large;
+    padding-top: 10px;
+    text-decoration: none;
+    cursor: pointer;
+
+}

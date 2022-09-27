@@ -1,0 +1,32 @@
+.left1{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px;
+
+}
+.left2{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+.btn1{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+}
+.right-section{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
+}
+.txt2{
+    font-size: larger;
+}
+.txt5 p{
+    font-size: large;
+}
+.txt6 h4{
+    font-size:medium;
+}

@@ -1,0 +1,27 @@
+
+  <div class="main-body">
+    <!-- <div class=" col-md-2 left-section ">
+        <h4 class="lhead">Cakes</h4>
+        <div *ngFor="let item of homearray">
+            <ul class="sum">
+              <li><b>{{item.name}}</b></li>
+            </ul>
+          </div>
+    </div> -->
+    <div class=" right-section">
+        <div class="col-md-4"*ngFor="let item of homearray">
+            <div class="crd">
+                <div class="card-body">
+                  <img class="rounded-circle " src="{{item.img}}" alt="Card image cap">
+                  <h3 class="title">{{item.name}}</h3>
+                  <h3 class="title">Rs.{{item.Rs}}</h3>
+                  <div class="btn1">
+                    <button (click)="view(item.id)" class="btn btn-primary">View</button>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+    </div>
+    
+  </div>
